@@ -1,4 +1,4 @@
-номер 1
+#номер 1
 x1, y1, z1, x2, y2, z2 = map(int, input(). split())
 def find(x1, y1, z1, x2, y2, z2):
     min = 1000
@@ -14,7 +14,7 @@ def find(x1, y1, z1, x2, y2, z2):
     else:
         print(z1, z2)
 find(x1, x2, y1, y2, z1, z2)
-номер 2
+#номер 2
 n = int(input())
 def dvojka(n):
     a = 2

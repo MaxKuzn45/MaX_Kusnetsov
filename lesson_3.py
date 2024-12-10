@@ -1,4 +1,4 @@
-дз 3.1
+#дз 3.1
 try:
     n = int(input("число"))
     if 1 <= n <= 100:
@@ -8,7 +8,7 @@ try:
         print("Ошибка")
 except ValueError:
     print("Ошибка")
-дз 3.2
+#дз 3.2
 for sh in range(1, 11):
     for dl in range(1, 11):
         print('{:2d}'.format(dl*sh), end=' ')

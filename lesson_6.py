@@ -1,4 +1,4 @@
-дз 5.5
+#дз 5.5
 from random import randint
 arr=list()
 X=3
@@ -15,7 +15,7 @@ for i in range(X):
     SUMMA=sum([arr[i][j] for j in range(Y)])
     ST=arr[i]
 print(ST,SUMMA)
-дз 5.6
+#дз 5.6
 from random import randint
 n = 3
 m = 4

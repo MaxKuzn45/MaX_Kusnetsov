@@ -1,4 +1,4 @@
-дз 8.1
+#дз 8.1
 import re
 a=input("")
 while a!='':
@@ -9,7 +9,7 @@ while a!='':
     else:
         print('ошибка')
     a=input("")
-дз 8.2
+#дз 8.2
 import re
 from functools import reduce
 with open('Занятие_8_Текст.txt', 'r', encoding='utf-8') as file:
@@ -21,7 +21,7 @@ filtered_words = list(filter(
     words
 ))
 print(filtered_words)
-дз 8.3
+#дз 8.3
 import re
 from functools import reduce
 D='Уважаемые! Если вы к 09:00 не вернёте чемодан, то уже в 09:00:01 я за себя не отвечаю.'
@@ -31,7 +31,7 @@ D= reduce(lambda x,y:  x+' '+y, D)
 for i in x:
     D=D.replace(i,'(TBD)',1)
 print(D)
-дз 8.4
+#дз 8.4
 import re
 s = 'Владимир устроился на работу в одно очень важное место.'
 x = re.findall((r'\b[А-Я][А-Я]*[А-Я]\b', s))

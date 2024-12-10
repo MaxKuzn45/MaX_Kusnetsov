@@ -1,4 +1,4 @@
-дз 4.1
+#дз 4.1
 a=input()
 mx=0
 mxn=0
@@ -11,7 +11,7 @@ for i in range(len(a)):
     mx=0
 a=a.replace('н','!')
 print(a, mxn)
-дз 4.2
+#дз 4.2
 a='{[('
 b=')}]'
 c=input()
@@ -25,7 +25,7 @@ for i in range(len(c)):
   if c[i] in a:
     wr=True
 print(s)
-дз 4.3
+#дз 4.3
 a=input()
 m=[a for a in a.split()]
 for i in m:

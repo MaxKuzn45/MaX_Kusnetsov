@@ -1,4 +1,4 @@
-Дз 2.1
+#Дз 2.1
 def divide_numbers():
     try:
         X = float(input("первое"))
@@ -10,7 +10,7 @@ def divide_numbers():
     except ValueError:
         print("ошибка")
 divide_numbers()
-Дз 2.2
+#Дз 2.2
 S = float(input("Сумма покупки "))
 X = 0.35
 Y = 0
@@ -22,7 +22,7 @@ Y = round(Y, 2)
 G = round(G, 2)
 print(f"размер скидки {Y}")
 print(f"Итоговая сумма {G}")
- Дз 2.3
+# Дз 2.3
 try:
     month_number = int(input("Месяц"))
 

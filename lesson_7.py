@@ -1,4 +1,4 @@
-дз 7.1
+#дз 7.1
 def read_last(lines, file):
     file = open(r'C:\file\article.txt', 'r')
     if lines <= 0:
@@ -9,7 +9,7 @@ def read_last(lines, file):
         for line in X[-lines]:
             print(line.strip())
 read_last(3, 'article.txt')
-дз 7.2
+#дз 7.2
 import os
 def print_docs(directory):
     if not os.path.exists(directory):
@@ -21,7 +21,7 @@ def print_docs(directory):
         if os.path.isdir(p:
             print_docs(p)
 print_docs(r'C:\file2.txt')
-дз 7.3
+#дз 7.3
 def longest_words(file):
     with open(file, 'r') as f:
         content = f.read()
@@ -32,7 +32,7 @@ def longest_words(file):
     longest_words = [word for word in words if len(word) == max_length]
     return longest_words
 print(longest_words('article.txt'))
-дз 7.4
+#дз 7.4
 def text_editor():
     file_name = input()
     file_name += '.txt'
